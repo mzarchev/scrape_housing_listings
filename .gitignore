@@ -1,2 +1,4 @@
 *.nb.html
 failed*
+profile.txt
+.Rproj.user
