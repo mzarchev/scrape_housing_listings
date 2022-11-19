@@ -1,0 +1,82 @@
+---
+title: "Apartments"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(leaflet)
+
+### Pararius
+pararius_df <- 
+  read_csv("pararius_listings.csv") %>% 
+  filter(days_since < 4) 
+
+# Function for maps
+leaflet() # Otherwise map doesn't work
+
+make_map <- function(i, lon, lat, width){
+  htmltools::tagList(
+    leaflet::leaflet(pararius_df[i,], width = width) %>%
+    leaflet::addTiles() %>% 
+    leaflet::addMarkers(lng = lon, lat = lat)) %>% 
+  as.character()
+}
+# Get image dimensions for resizing map
+get_width <- function(i){
+  magick::image_read(pararius_df[i,]$img) %>% 
+  magick::image_info() %>% 
+  pluck("width")
+}
+```
+
+# Pararius
+
+```{r echo=FALSE, results='asis'}
+for(i in 1:(nrow(pararius_df) - 1)){
+  # Title
+  cat(paste0("# ", pararius_df[i,]$name,
+             " posted ", pararius_df[i,]$days_since, " days ago \n\n"))
+  # Link
+  cat(paste0("[LINK](", pararius_df[i,]$url, ")\n\n")) 
+  # Type and availability
+  cat(paste0(pararius_df[i,]$type, " availabile: ",
+             pararius_df[i,]$availability, "\n\n"))
+  # Price, number of rooms and square meters
+  cat(paste0("**Details:** ", pararius_df[i,]$price, "$", ", ", 
+              pararius_df[i,]$rooms, ", ", pararius_df[i,]$area, "\n")) 
+  
+  cat("\n\n")
+  # Photo
+  cat(paste0("![](", pararius_df[i,]$img, ")", "\n")) 
+  cat("\n\n")
+  # Description
+  cat(pararius_df[i,]$description) 
+  cat("\n\n")
+  
+  # Width of map to match image
+  img_width <- get_width(i)
+  
+  # Map
+  cat(make_map(i, pararius_df[i,]$lon, pararius_df[i,]$lat, width = img_width))
+  
+  cat("\n\n")
+  cat("---")
+  cat("\n\n")
+}
+```
+
+
+```{r eval=FALSE, include=FALSE, results='asis'}
+pararius_df %>% 
+  mutate(across(c(area, rooms), ~str_extract(., "^\\d+") %>% 
+                                 as.numeric())) %>% 
+  select(-name) %>% 
+  pivot_longer(c(area, rooms)) %>% 
+  ggplot(aes(x = value, y = price, color = name)) +
+  geom_point() +
+  facet_wrap(~name, scale = "free_x") +
+  theme_minimal()
+```
