@@ -7,9 +7,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.ui import Select
-from webdrivermanager.chrome import ChromeDriverManager
 
-# Misc
+from bs4 import BeautifulSoup
 from time import sleep
 
 ## Opening browser
@@ -43,7 +42,18 @@ login.click()
 sleep(2)
 
 # Get to group
-url_housing_rotterdam = "https://www.facebook.com/groups/1085601721566069/?hoisted_section_header_type=recently_seen&multi_permalinks=5422870601172471"
+url_housing_rotterdam = "https://www.facebook.com/groups/apartmentshousingrotterdam?sorting_setting=CHRONOLOGICAL_LISTINGS"
 
 driver.get(url_housing_rotterdam) 
 sleep(4) 
+
+soup = BeautifulSoup(driver.page_source, "html.parser")
+all_posts=soup.find_all("div", class_="x1yztbdb x1n2onr6 xh8yej3 x1ja2u2z")
+
+for post in all_posts:
+    since = post.find("span", class_="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h").text
+    description = post.find("span", class_="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h").text
+    print(since, "\n", description)
+    
+len(all_posts)    
+    
