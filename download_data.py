@@ -7,3 +7,4 @@ df_pararius.to_csv("pararius_listings.csv")
 
 # Kamernet
 df_kamernet = scrape_kamernet_ur("https://kamernet.nl/en/for-rent/rooms-rotterdam")
+df_kamernet.to_csv("kamernet_listings.csv")
