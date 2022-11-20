@@ -29,7 +29,7 @@ def scrape_kamernet_url(kamernet_url):
         name = listing.find("a", class_="tile-title truncate").text
         # Type
         type = listing.find("div", class_="tile-room-type").text
-        type = re.findall(r"[A-Z].+(?=[\r])", type)
+        type = re.findall(r"[A-Z].+(?=[\r])", type)[0]
         # Price numeric
         price = listing.find("div", class_="tile-rent").text
         price = int(re.findall(r'\d+', price)[0])
