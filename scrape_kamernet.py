@@ -68,8 +68,11 @@ def scrape_kamernet_url(kamernet_url):
         description = soup_listing.find("div", class_="col s12 room-description desc-special-text").text
         description = description.replace("\r\n", "").strip()
         # Main image
-        img = soup_listing.find("div", class_="item gallery-item")["href"]
-        
+        try:
+            img = soup_listing.find("div", class_="item gallery-item")["href"]
+        except:
+            img = "N/A"
+            
         listings_dict["name"].append(name)
         listings_dict["type"].append(type)
         listings_dict["days_ago"].append(days_ago)
