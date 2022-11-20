@@ -12,7 +12,7 @@ library(leaflet)
 ### Pararius
 pararius_df <- 
   read_csv("pararius_listings.csv") %>% 
-  filter(days_since < 4) 
+  filter(days_ago < 4) 
 
 # Function for maps
 leaflet() # Otherwise map doesn't work
@@ -47,7 +47,7 @@ kamernet_df <-
 for(i in 1:(nrow(pararius_df) - 1)){
   # Title
   cat(paste0("# ", pararius_df[i,]$name,
-             " posted ", pararius_df[i,]$days_since, " days ago \n\n"))
+             " posted ", pararius_df[i,]$days_ago, " days ago \n\n"))
   # Link
   cat(paste0("[LINK](", pararius_df[i,]$url, ")\n\n")) 
   # Type and availability
