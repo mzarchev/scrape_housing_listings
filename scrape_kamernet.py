@@ -36,8 +36,6 @@ def scrape_kamernet_url(kamernet_url):
         # Area square meters
         area = listing.find("div", class_="tile-surface").text
         # area = int(re.findall(r'\d+', area)[0]) # If converted to numeric
-        # Main image
-        img = listing.find("img", class_="lazyload")["src"]
         # Availability
         availability = listing.find("div", class_="left").text
         availability = " until ".join(re.findall("\d+-\d+-'?\d+", availability))
@@ -69,6 +67,8 @@ def scrape_kamernet_url(kamernet_url):
         # Description
         description = soup_listing.find("div", class_="col s12 room-description desc-special-text").text
         description = description.replace("\r\n", "").strip()
+        # Main image
+        img = soup_listing.find("div", class_="item gallery-item")
         
         listings_dict["name"].append(name)
         listings_dict["type"].append(type)
@@ -83,3 +83,4 @@ def scrape_kamernet_url(kamernet_url):
         listings_dict["img"].append(img)
 
     return(DataFrame(listings_dict))
+

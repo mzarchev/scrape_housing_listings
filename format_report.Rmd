@@ -30,11 +30,20 @@ get_width <- function(i){
   magick::image_info() %>% 
   pluck("width")
 }
+
+
+### Kamernet
+kamernet_df <- 
+  read_csv("kamernet_listings.csv") %>% 
+  filter(days_ago < 4,
+         price <= 900) %>% 
+  mutate(type = str_remove_all(type, "\\['|'\\]"))
 ```
 
 # Pararius
 
 ```{r echo=FALSE, results='asis'}
+
 for(i in 1:(nrow(pararius_df) - 1)){
   # Title
   cat(paste0("# ", pararius_df[i,]$name,
@@ -68,9 +77,38 @@ for(i in 1:(nrow(pararius_df) - 1)){
 }
 ```
 
+$~$
+
+# Kamernet
+
+```{r echo=FALSE, results='asis'}
+for(i in 1:(nrow(kamernet_df) - 1)){
+  # Title
+  cat(paste0("# ", kamernet_df[i,]$name,
+             " posted ", kamernet_df[i,]$days_ago, " days ago \n\n"))
+  # Link
+  cat(paste0("[LINK](", kamernet_df[i,]$url, ")\n\n")) 
+  # Type and availability
+  cat(paste0(kamernet_df[i,]$type, " availabile: ",
+             kamernet_df[i,]$availability, "\n\n"))
+  # Price, number of rooms and square meters
+  cat(paste0("**Details:** ", kamernet_df[i,]$price, "$",
+             " (", kamernet_df[i,]$utilities, "),\n",
+             kamernet_df[i,]$rooms, ", ", kamernet_df[i,]$area, "\n")) 
+  
+  cat("\n\n")
+  # Photo
+  cat(paste0("![](", kamernet_df[i,]$img, ")", "\n")) 
+  cat("\n\n")
+  # Description
+  cat(kamernet_df[i,]$description) 
+  cat("\n\n")
+}
+```
+
 
 ```{r eval=FALSE, include=FALSE, results='asis'}
-pararius_df %>% 
+kamernet_df %>% 
   mutate(across(c(area, rooms), ~str_extract(., "^\\d+") %>% 
                                  as.numeric())) %>% 
   select(-name) %>% 

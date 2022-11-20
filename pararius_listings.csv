@@ -1,11 +1,28 @@
-name,type,since,price,area,rooms,img,url,lat,lon,description,availability,days_since
-Beijerlandselaan,Apartment,18-11-2022,830,90 m²,4 rooms,https://casco-media-prod.global.ssl.fastly.net/3f70272b-5000-5737-b58b-6db1d52d70a4/e06b80b0d259bef4692e46c8c24b0165.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/3f70272b/beijerlandselaan,51.89864,4.51025,"Lovely upholstered apartment for rent in Rotterdam with 1 bedroom in the Hillesluis district.
+name,type,since,days_ago,price,area,rooms,img,url,lat,lon,description,availability
+Plein,Apartment,19-11-2022,1,895,55 m²,3 rooms,https://casco-media-prod.global.ssl.fastly.net/0363faf4-1506-520b-af9e-19018c83957d/b38f34d9646b04a101d9651eb263f30a.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/0363faf4/plein-1953,51.87304,4.47027,"Now available a 3 room apartment located in the Karel de Stoute flat on the 4th floor with south-facing balcony and private storage room in the basement.
+The apartment has a pleasant and light living experience. You have an unobstructed view of the enclosed garden belonging to the complex. From the complex you can walk straight into the shopping center and to the bus and tram.  
+Layout  
+Hall, toilet, the kitchen is equipped with various equipment, through the kitchen access to the bathroom with shower and sink. Bedroom on the gallery side, the living room is located at the rear and gives access to the balcony. Also at the rear a bedroom also with access to the balcony.  
+Requirements:  
+- Acceptance immediately
+- Maximum rental period of 24 months
+- Income exclusively from work, the monthly income requirement is 3.5x the rent as gross
+income
+- Students allowed if a working family member can provide financial guarantee
+(above average income required)
+- The deposit is € 1700.00
+- The rental price is excluding gas, water, electricity, TV/internet, etc.
+- Viewing requests only by email
+- Heating through block heating, the monthly advance is € 150.00
 
-",In consultation,1
-Reyerdijk,Apartment,18-11-2022,760,75 m²,3 rooms,https://casco-media-prod.global.ssl.fastly.net/120e3890-556c-56a1-ba26-c593a66966e7/a909ac152c09585af2e910640d4f0a5b.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/120e3890/reyerdijk,51.88321,4.55174,"Beautiful apartment for rent in Rotterdam with 1 bedroom in the Groot IJsselmonde district.
+",Immediately
+Beijerlandselaan,Apartment,18-11-2022,2,830,90 m²,4 rooms,https://casco-media-prod.global.ssl.fastly.net/3f70272b-5000-5737-b58b-6db1d52d70a4/e06b80b0d259bef4692e46c8c24b0165.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/3f70272b/beijerlandselaan,51.89864,4.51025,"Lovely upholstered apartment for rent in Rotterdam with 1 bedroom in the Hillesluis district.
 
-",In consultation,1
-Vierambachtsstraat,Studio,16-11-2022,850,31 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/153afd8e-d9f9-5416-b49d-92ca095abe3a/c01dab4c62012eaeff966ad5c5b2167a.jpg?width=600&auto=webp,https://www.pararius.com/studio-for-rent/rotterdam/153afd8e/vierambachtsstraat,51.91637,4.44775,"Completely renovated 2 room flat on prime location!
+",In consultation
+Reyerdijk,Apartment,18-11-2022,2,760,75 m²,3 rooms,https://casco-media-prod.global.ssl.fastly.net/120e3890-556c-56a1-ba26-c593a66966e7/a909ac152c09585af2e910640d4f0a5b.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/120e3890/reyerdijk,51.88321,4.55174,"Beautiful apartment for rent in Rotterdam with 1 bedroom in the Groot IJsselmonde district.
+
+",In consultation
+Vierambachtsstraat,Studio,16-11-2022,4,850,31 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/153afd8e-d9f9-5416-b49d-92ca095abe3a/c01dab4c62012eaeff966ad5c5b2167a.jpg?width=600&auto=webp,https://www.pararius.com/studio-for-rent/rotterdam/153afd8e/vierambachtsstraat,51.91637,4.44775,"Completely renovated 2 room flat on prime location!
 Rent price: €850,00 excluding G/W/E, internet/tv and municipal charges
 State: Semi-furnished
 Available from: Directly
@@ -25,17 +42,17 @@ Rotterdam-West / Middelland is a city neighbourhood with authentic shops, coffee
 For this property, please contact HouseHunting Rotterdam
 Although this text has been prepared with care, no rights can be derived from this text. Sizes are indicative and not NEN measured. Grant subject to approval by landlord/owner. Deposit amount may vary, depending on profile. No pets allowed. No smoking. Lease agreement for a definite period. General terms and conditions of ROZ apply.
 
-",Immediately,3
-Kreileroord,Apartment,16-11-2022,875,70 m²,2 rooms,https://media.pararius.nl/image/PR0001669000/PR0001669046/image/jpeg/400x600/RotterdamKreileroord-7781_1.jpg,https://www.pararius.com/apartment-for-rent/rotterdam/51c89048/kreileroord,51.88417,4.54947,"Beautiful apartment with balcony for rent in Rotterdam with 1 bedroom in the Groot IJsselmonde district.
+",Immediately
+Kreileroord,Apartment,16-11-2022,4,875,70 m²,2 rooms,https://media.pararius.nl/image/PR0001669000/PR0001669046/image/jpeg/400x600/RotterdamKreileroord-7781_1.jpg,https://www.pararius.com/apartment-for-rent/rotterdam/51c89048/kreileroord,51.88417,4.54947,"Beautiful apartment with balcony for rent in Rotterdam with 1 bedroom in the Groot IJsselmonde district.
 
-",From 01-12-2022,3
-Putsebocht,Room,15-11-2022,750,20 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/49541180-3c6b-588f-90f1-5124dd828108/d4575fd4038ca3b4a31895f92bcb7608.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/49541180/putsebocht,51.89732,4.50163,"Just upholstered ROOM apartment located in Rotterdam South, in the cozy neighborhood 'Feijenoord'. Located a few minutes from the city center. Various shops and restaurants can be found in the street and public transport with tram lines 20 and 25 can be reached within walking distance.   
+",From 01-12-2022
+Putsebocht,Room,15-11-2022,5,750,20 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/49541180-3c6b-588f-90f1-5124dd828108/d4575fd4038ca3b4a31895f92bcb7608.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/49541180/putsebocht,51.89732,4.50163,"Just upholstered ROOM apartment located in Rotterdam South, in the cozy neighborhood 'Feijenoord'. Located a few minutes from the city center. Various shops and restaurants can be found in the street and public transport with tram lines 20 and 25 can be reached within walking distance.   
 Layout:
 Shared entrance on the ground floor. Entrance of the apartment on the first floor. The hall offers access to all rooms. Spacious and bright living room with open kitchen also provides access to the balcony. The modern kitchen is equipped with various built-in appliances such as a fridge, freezer, hob and sink. The room can be freely arranged as desired. The bathroom has a shower, toilet, sink with mirror and designer radiator.   
 HOUSING PERMIT REQUIRED
 
-",Immediately,4
-Cornelis,Room,15-11-2022,475,15 m²,1 room,https://media.pararius.nl/image/PR0001669000/PR0001669011/image/jpeg/400x600/RotterdamCornelisHeinricksestraat-cbf0_1.jpg,https://www.pararius.com/room-for-rent/rotterdam/9eedde3e/cornelis-heinricksestraat,51.89546,4.54222,"Immediately we have one room (15m2) available in a house on the Cornelis Heinricksestraat in Rotterdam for €475,- per month excl. G/W/E. The facilities such as bathroom, toilet and kitchen will be shared with two roommates.   
+",Immediately
+Cornelis,Room,15-11-2022,5,475,15 m²,1 room,https://media.pararius.nl/image/PR0001669000/PR0001669011/image/jpeg/400x600/RotterdamCornelisHeinricksestraat-cbf0_1.jpg,https://www.pararius.com/room-for-rent/rotterdam/9eedde3e/cornelis-heinricksestraat,51.89546,4.54222,"Immediately we have one room (15m2) available in a house on the Cornelis Heinricksestraat in Rotterdam for €475,- per month excl. G/W/E. The facilities such as bathroom, toilet and kitchen will be shared with two roommates.   
 The house has a good location in relation to the center of Rotterdam, the Twee Heuvelpark and the A16. The property is surrounded with amenities such as a tram/bus stop (30 min to Rotterdam Central) which is a 5-minute walk, 5-minute bike ride to the Feyenoord stadium and 5-minute drive to the A16. Furthermore, amenities such as a supermarket and pharmacy are within walking distance. The center of Rotterdam is easily accessible by 15 minutes.   
 Details:  
 - Available immediately;  
@@ -51,17 +68,17 @@ Details:
 - Registration with the municipality is possible.   
 Are you interested in this room? Then be sure to send a message.
 
-",Immediately,4
-Putsebocht,Room,15-11-2022,750,20 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/679c35ed-9faa-5f83-a699-6937bb9b5d63/d0f4e84e2b2478da865aa8155530a9d1.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/679c35ed/putsebocht,51.89732,4.50163,"Nicely furnished ROOM apartment located in South Rotterdam, in the cozy neighborhood 'Feijenoord'. Located minutes from the city center. Several shops and restaurants can be found in the street and public transport with tram lines 20 and 25 is within walking distance.   
+",Immediately
+Putsebocht,Room,15-11-2022,5,750,20 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/679c35ed-9faa-5f83-a699-6937bb9b5d63/d0f4e84e2b2478da865aa8155530a9d1.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/679c35ed/putsebocht,51.89732,4.50163,"Nicely furnished ROOM apartment located in South Rotterdam, in the cozy neighborhood 'Feijenoord'. Located minutes from the city center. Several shops and restaurants can be found in the street and public transport with tram lines 20 and 25 is within walking distance.   
 Layout:
 Shared entrance on the ground floor. Entrance of the apartment on the 3rd floor. The hall provides access to all rooms. Spacious and bright living room with open kitchen also provides access to the balcony. The modern kitchen is equipped with various built-in appliances such as a refrigerator, freezer, hob and sink. The room can be freely arranged as desired. The bathroom has a shower, toilet, washbasin with mirror and designer radiator.  
 HOUSING PERMIT REQUIRED
 
-",From 01-01-2023,4
-Vegelinsoord,Apartment,15-11-2022,815,57 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/563d30c5-18a5-5e11-978c-e240aa784cea/99655677ee52abd09df7121c4bde6eda.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/563d30c5/vegelinsoord,51.87888,4.55463,"Nice apartment with balcony for rent in Rotterdam with 1 bedroom in the Groot IJsselmonde district.
+",From 01-01-2023
+Vegelinsoord,Apartment,15-11-2022,5,815,57 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/563d30c5-18a5-5e11-978c-e240aa784cea/99655677ee52abd09df7121c4bde6eda.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/563d30c5/vegelinsoord,51.87888,4.55463,"Nice apartment with balcony for rent in Rotterdam with 1 bedroom in the Groot IJsselmonde district.
 
-",From 01-12-2022,4
-Cornelis,Apartment,11-11-2022,895,63 m²,3 rooms,https://casco-media-prod.global.ssl.fastly.net/f3100d0e-e353-57b2-8f99-20d23be4a230/4a15cb68d7f737ba7e4a567a2898f864.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/f3100d0e/cornelis-heinricksestraat,51.89546,4.54222,"Modern renovated and upholstered apartment for rent in Zomerland Rotterdam with 2 bedrooms, access with elevator.
+",From 01-12-2022
+Cornelis,Apartment,11-11-2022,9,895,63 m²,3 rooms,https://casco-media-prod.global.ssl.fastly.net/f3100d0e-e353-57b2-8f99-20d23be4a230/4a15cb68d7f737ba7e4a567a2898f864.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/f3100d0e/cornelis-heinricksestraat,51.89546,4.54222,"Modern renovated and upholstered apartment for rent in Zomerland Rotterdam with 2 bedrooms, access with elevator.
 The Cornelis Heinricksestraat is a modern apartment in a great location. From the 8th floor you have a beautiful view over the skyline of Rotterdam, but the location itself is also very good. Various roads are only 5 minutes away, the city center can also be reached within 15 minutes. Finally, the public transport facilities are very good.
 The apartment of aprox. 63 m2 has a spacious living room, beautiful bathroom and modern kitchen.
 Layout:
@@ -87,8 +104,8 @@ Only respond digitally via 'plan a viewing', please don't call to check
 Heating (advance heating costs): €95.00 per month
 
 
-",Immediately,8
-Tapuitstraat,Apartment,11-11-2022,745,50 m²,3 rooms,https://casco-media-prod.global.ssl.fastly.net/01be9dfd-f11c-5b49-90e9-520c8610c4dd/bef14897f0e11ccfa31cb6175e52c482.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/01be9dfd/tapuitstraat,51.88806,4.47297,"WE KINDLY REQUEST YOU TO RESPOND BY MAIL ONLY
+",Immediately
+Tapuitstraat,Apartment,11-11-2022,9,745,50 m²,3 rooms,https://casco-media-prod.global.ssl.fastly.net/01be9dfd-f11c-5b49-90e9-520c8610c4dd/bef14897f0e11ccfa31cb6175e52c482.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/01be9dfd/tapuitstraat,51.88806,4.47297,"WE KINDLY REQUEST YOU TO RESPOND BY MAIL ONLY
 Please note! The property is for rent for up to 12 months! 
 3-room apartment in Rotterdam, Charlois. 
 Unique opportunity for starters on the rental market! This of 50m2 with 2 bedrooms is located on the third floor of a neat complex. 
@@ -113,8 +130,8 @@ Tenant subscription € 49.50 per month
 Income from work, income requirement per month is 3x the months rent or with guarantor with Dutch income
 
 
-",From 07-12-2022,8
-Hulkstraat,Apartment,09-11-2022,875,67 m²,3 rooms,https://media.pararius.nl/image/PR0001668000/PR0001668852/image/jpeg/400x600/RotterdamHulkstraat-a391_1.jpg,https://www.pararius.com/apartment-for-rent/rotterdam/f1b00250/hulkstraat,51.91953,4.42111,"Lovely bright 3 (formerly 4) room apartment with balcony for rent € 875, - excl. on the Hulkstraat in Rotterdam-west.   
+",From 07-12-2022
+Hulkstraat,Apartment,09-11-2022,11,875,67 m²,3 rooms,https://media.pararius.nl/image/PR0001668000/PR0001668852/image/jpeg/400x600/RotterdamHulkstraat-a391_1.jpg,https://www.pararius.com/apartment-for-rent/rotterdam/f1b00250/hulkstraat,51.91953,4.42111,"Lovely bright 3 (formerly 4) room apartment with balcony for rent € 875, - excl. on the Hulkstraat in Rotterdam-west.   
 The apartment is unfurnished, with central heating, double glazing and laminate flooring. The apartment has 2 balconies and also has a spacious storage room in the basement.   
 The apartment is located in the pleasant neighborhood Oud-Mathenesse, near stores, public transport and arterial roads, a short distance from the center of Schiedam.   
 2nd floor:  
@@ -133,8 +150,8 @@ Pets are not allowed!
 It is possible to make an appointment for a viewing.   
 For an appointment or more information you can contact our office by phone.
 
-",Immediately,10
-Slotstraat,Apartment,07-11-2022,860,30 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/a2fd0df1-f380-5eda-85b7-20ada9ce907c/b43ef7abcfc975b27add17d9e2f9b98b.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/a2fd0df1/slotstraat,51.92179,4.51419,"NICE STUDIO WITH BALCONY SITUATED IN KRALINGEN, ONE OF THE MOST WANTED DISTRICT OF ROTTERDAM WITHIN STONE'S THROW FROM THE KRALINGSE FOREST, WHERE MANY RECREATION OPPORTUNITIES, GREEN AND COZY CAN BE FIND. THE PERFECT HOUSE FOR 1 PERSON WHICH IS EQUIPPED WITH LAMINATE, CENTRAL HEATING, KITCHEN AND BATHROOM   
+",Immediately
+Slotstraat,Apartment,07-11-2022,13,860,30 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/a2fd0df1-f380-5eda-85b7-20ada9ce907c/b43ef7abcfc975b27add17d9e2f9b98b.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/a2fd0df1/slotstraat,51.92179,4.51419,"NICE STUDIO WITH BALCONY SITUATED IN KRALINGEN, ONE OF THE MOST WANTED DISTRICT OF ROTTERDAM WITHIN STONE'S THROW FROM THE KRALINGSE FOREST, WHERE MANY RECREATION OPPORTUNITIES, GREEN AND COZY CAN BE FIND. THE PERFECT HOUSE FOR 1 PERSON WHICH IS EQUIPPED WITH LAMINATE, CENTRAL HEATING, KITCHEN AND BATHROOM   
 Layout
 Entrance through a closed porch you enter inside this cozy apartment, which is located at the rear of this building with a lot of light. The open kitchen is equipped with a 4burner hob, oven, extractor hood and sufficient cupboard space.  
 The adjacent bathroom has a shower cabin, sink, radiator, ventilation and toilet. Lovely balcony at the rear can be accessed through the kitchen.  
@@ -145,8 +162,8 @@ Maximum 24 months.
 < b>Location
 This nice house is located in a quiet street. The house is easily accessible with many amenities nearby. There are also various pleasant shopping streets and restaurants in the immediate vicinity, such as the Oudedijk, the Kortekade, the Lusthofstraat and the upcoming Vlietlaan. In addition, the city center and Erasmus University are easily accessible by bicycle and all major roads A13A16A20 and public transport are easily accessible.
 
-",From 01-12-2022,12
-Zuidhoek,Apartment,5-11-2022,695,50 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/fc0c5d2c-f910-56bb-8e70-5da3c2500f49/632a6220bc1464ceb992376959aaf12c.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/fc0c5d2c/zuidhoek,51.8864,4.46094,"Spacious 2-room apartment available in the quiet street ''Zuidhoek'':
+",From 01-12-2022
+Zuidhoek,Apartment,6-11-2022,14,695,50 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/fc0c5d2c-f910-56bb-8e70-5da3c2500f49/632a6220bc1464ceb992376959aaf12c.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/fc0c5d2c/zuidhoek,51.8864,4.46094,"Spacious 2-room apartment available in the quiet street ''Zuidhoek'':
 The Zuiderpark, Ahoy sports complex and the Zuidplein shopping center are a stone's throw away. The highways e A16 and A20 can be reached within 5 minutes.
 Enclosed porch.
 Stairs to second floor.
@@ -173,8 +190,8 @@ Income requirement:
 • The income requirement for a guarantor is 5x the gross rent per month on 1 income
 ** No rights can be derived from the data, text and photos of this object.
 
-",In consultation,14
-Zuidhoek,Apartment,5-11-2022,712,60 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/0f482f2e-ad68-5203-afab-c19a07efa58a/6ff592735f20d056d56663d6d6d65703.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/0f482f2e/zuidhoek,51.89087,4.46378,"Neat maintenance 2-room apartment available in the quiet street ''Zuidhoek'':
+",In consultation
+Zuidhoek,Apartment,6-11-2022,14,712,60 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/0f482f2e-ad68-5203-afab-c19a07efa58a/6ff592735f20d056d56663d6d6d65703.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/0f482f2e/zuidhoek,51.89087,4.46378,"Neat maintenance 2-room apartment available in the quiet street ''Zuidhoek'':
 The Zuiderpark, Ahoy sports complex and the Zuidplein shopping center are a stone's throw away. The highways e A16 and A20 can be reached within 5 minutes.
 Enclosed porch.
 Stairs to second floor.
@@ -199,8 +216,8 @@ Income requirement:
 • The income requirement for a guarantor is 5x the gross rent per month on 1 income
 ** No rights can be derived from the data, text and photos of this object.
 
-",In consultation,14
-Jaersveltstraat,Apartment,5-11-2022,895,50 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/e4ea8fa2-efdc-59a5-a585-9441e0d69fa9/583ad5358125807d386d0376070008b4.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/e4ea8fa2/jaersveltstraat,51.89112,4.4668,"Bright and neat 2-room apartment with spacious garden on the Jaersveltstraat in Charlois for rent. The living space is rented in bare condition and located on the ground floor. The center can be reached in 15 minutes by bike and 15 minutes by public transport. In the vicinity are several stores, the supermarket and public transport connections.
+",In consultation
+Jaersveltstraat,Apartment,6-11-2022,14,895,50 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/e4ea8fa2-efdc-59a5-a585-9441e0d69fa9/583ad5358125807d386d0376070008b4.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/e4ea8fa2/jaersveltstraat,51.89112,4.4668,"Bright and neat 2-room apartment with spacious garden on the Jaersveltstraat in Charlois for rent. The living space is rented in bare condition and located on the ground floor. The center can be reached in 15 minutes by bike and 15 minutes by public transport. In the vicinity are several stores, the supermarket and public transport connections.
 Layout:
 
 Living room of ca. 25m ² with patio doors to the spacious backyard. 
@@ -250,8 +267,8 @@ Furthermore, the same requirements that apply for employees or self-employed per
 Interested?
 We schedule viewings by e-mail. This way we can give you a clear picture of the rental process. Please respond to the advertisement or email us. We normally reply within two working days. Thank you for your effort!
 
-",From 01-01-2023,14
-Agniesestraat,Room,29-10-2022,430,20 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/ec3a0bfd-a25c-58f5-aba8-0b3329446ff1/d8be61c5e459b7204804119422e84b87.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/ec3a0bfd/agniesestraat,51.93194,4.47297,"ROTTERDAM AGNIESEBUURT: Very spacious and furnished room in a well-maintained upstairs apartment in a cozy and central location. The room is available directly!
+",From 01-01-2023
+Agniesestraat,Room,30-10-2022,21,430,20 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/ec3a0bfd-a25c-58f5-aba8-0b3329446ff1/d8be61c5e459b7204804119422e84b87.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/ec3a0bfd/agniesestraat,51.93194,4.47297,"ROTTERDAM AGNIESEBUURT: Very spacious and furnished room in a well-maintained upstairs apartment in a cozy and central location. The room is available directly!
  Interested? Please respond by the contact buttons next to the description or send us an e-mail 
 KEY FEATURES:
 •   Property will be rented furnished
@@ -286,8 +303,8 @@ INTERESTED?:
 •   If you have any questions or need advice, our brokers will be happy to assist you.
 •   We are available by phone from Monday to Friday daily from 10:00 to 16:00.
 
-",Immediately,21
-Teilingerstraat,Room,29-10-2022,480,20 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/65163c25-6540-5206-ac7e-ae68d0314ee7/d4f3242cf359e5fbf07553bbbc1f3296.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/65163c25/teilingerstraat,51.92852,4.47478,"ROTTERDAM AGNIESEBUURT: Spacious room with shared bathroom and kitchen. The room is available directly!
+",Immediately
+Teilingerstraat,Room,30-10-2022,21,480,20 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/65163c25-6540-5206-ac7e-ae68d0314ee7/d4f3242cf359e5fbf07553bbbc1f3296.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/65163c25/teilingerstraat,51.92852,4.47478,"ROTTERDAM AGNIESEBUURT: Spacious room with shared bathroom and kitchen. The room is available directly!
  Interested? Please respond by the contact buttons next to this description or send us an e-mail 
 KEY FEATURES:
 •   The room will be rented in current condition
@@ -314,8 +331,8 @@ INTERESTED?:
 •   If you have any questions or need advice, please also respond by the contact buttons next to this description or send us an e-mail. Our rental agents will be happy to assist you.
 •   Thanks for your understanding and cooperation.
 
-",Immediately,21
-Willemskade,Room,29-10-2022,422,16 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/55799f8d-f069-5c45-a6a7-a038bd957e5e/4689cfa9ebdfaaa7d0feb85f89a6ced9.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/55799f8d/willemskade,51.90943,4.48225,"Beautiful studio on prime location with view over the river Maas!
+",Immediately
+Willemskade,Room,30-10-2022,21,422,16 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/55799f8d-f069-5c45-a6a7-a038bd957e5e/4689cfa9ebdfaaa7d0feb85f89a6ced9.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/55799f8d/willemskade,51.90943,4.48225,"Beautiful studio on prime location with view over the river Maas!
 Rent price: €633,30 including G/W/E, internet/tv and service costs
 Condition: Furnished
 Available per: December 01, 2022
@@ -334,8 +351,8 @@ The Willemskade is a hip location where life is lived 24 hours a day. An interna
 For this property please contact HouseHunting Rotterdam.
 Although this text has been carefully prepared, no rights can be derived from this text. Measurements are indicative and not NEN measured. Allocation subject to approval by landlord / owner. Deposit amount may vary depending on profile. No pets allowed. Smoking not allowed. Rental agreement for a definite period. General conditions of ROZ applicable.
 
-",Immediately,21
-Oostmaaslaan,Room,22-10-2022,900,20 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/542afc7a-c768-5876-b704-50dd37533aa8/6fb90d95396d6d8e6af7f496ec8459b2.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/542afc7a/oostmaaslaan,51.91791,4.51383,"ROTTERDAM Kralingen: studio on a GREAT location near the Erasmus University. 
+",Immediately
+Oostmaaslaan,Room,23-10-2022,28,900,20 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/542afc7a-c768-5876-b704-50dd37533aa8/6fb90d95396d6d8e6af7f496ec8459b2.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/542afc7a/oostmaaslaan,51.91791,4.51383,"ROTTERDAM Kralingen: studio on a GREAT location near the Erasmus University. 
  Interested? Please respond by the contact buttons next to this description or send us an e-mail 
 KEY FEATURES:
 •       Studio will be rented furnished
@@ -369,20 +386,20 @@ INTERESTED?:
 •   If you have any questions or need advice, please also respond by the contact buttons next to this description or send us an e-mail. Our rental agents will be happy to assist you.
 •   Thanks for your understanding and cooperation.
 
-",From 01-12-2022,28
-Saftlevenstraat,Studio,22-10-2022,743,30 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/d38f6469-9dd5-54f2-a6ee-9523d5340498/650a519ce4383080338e9cf2aafaf8b4.jpg?width=600&auto=webp,https://www.pararius.com/studio-for-rent/rotterdam/d38f6469/saftlevenstraat,51.91341,4.46533,"Listing_description.intro.studio.20-39 upholstered studio for rent in Rotterdam with 1 bedroom in the Oude Westen district.
+",From 01-12-2022
+Saftlevenstraat,Studio,23-10-2022,28,743,30 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/d38f6469-9dd5-54f2-a6ee-9523d5340498/650a519ce4383080338e9cf2aafaf8b4.jpg?width=600&auto=webp,https://www.pararius.com/studio-for-rent/rotterdam/d38f6469/saftlevenstraat,51.91341,4.46533,"Listing_description.intro.studio.20-39 upholstered studio for rent in Rotterdam with 1 bedroom in the Oude Westen district.
 
-",In consultation,28
-Straatweg,Room,15-10-2022,375,20 m²,1 room,https://media.pararius.nl/image/PR0001668000/PR0001668133/image/jpeg/400x600/RotterdamStraatweg-2cff_1.jpg,https://www.pararius.com/room-for-rent/rotterdam/6fe1f480/straatweg,51.94398,4.48243,"Upholstered room for rent in Rotterdam in the Hillegersberg Zuid district.
+",In consultation
+Straatweg,Room,16-10-2022,35,375,20 m²,1 room,https://media.pararius.nl/image/PR0001668000/PR0001668133/image/jpeg/400x600/RotterdamStraatweg-2cff_1.jpg,https://www.pararius.com/room-for-rent/rotterdam/6fe1f480/straatweg,51.94398,4.48243,"Upholstered room for rent in Rotterdam in the Hillegersberg Zuid district.
 
-",Immediately,35
-Straatweg,Room,15-10-2022,375,20 m²,1 room,https://media.pararius.nl/image/PR0001668000/PR0001668132/image/jpeg/400x600/RotterdamStraatweg-2e90_1.jpg,https://www.pararius.com/room-for-rent/rotterdam/23ee3c7c/straatweg,51.94398,4.48243,"Upholstered room for rent in Rotterdam in the Hillegersberg Zuid district.
+",Immediately
+Straatweg,Room,16-10-2022,35,375,20 m²,1 room,https://media.pararius.nl/image/PR0001668000/PR0001668132/image/jpeg/400x600/RotterdamStraatweg-2e90_1.jpg,https://www.pararius.com/room-for-rent/rotterdam/23ee3c7c/straatweg,51.94398,4.48243,"Upholstered room for rent in Rotterdam in the Hillegersberg Zuid district.
 
-",Immediately,35
-Tamboerstraat,Room,15-10-2022,450,25 m²,1 room,https://media.pararius.nl/image/PR0001668000/PR0001668130/image/jpeg/400x600/RotterdamTamboerstraat-f3ba_1.jpg,https://www.pararius.com/room-for-rent/rotterdam/c1c974f3/tamboerstraat,51.93302,4.49651,"Comfortable upholstered room for rent in Rotterdam in the Oud Crooswijk district.
+",Immediately
+Tamboerstraat,Room,16-10-2022,35,450,25 m²,1 room,https://media.pararius.nl/image/PR0001668000/PR0001668130/image/jpeg/400x600/RotterdamTamboerstraat-f3ba_1.jpg,https://www.pararius.com/room-for-rent/rotterdam/c1c974f3/tamboerstraat,51.93302,4.49651,"Comfortable upholstered room for rent in Rotterdam in the Oud Crooswijk district.
 
-",Immediately,35
-Mijnsherenlaan,Apartment,15-10-2022,500,24 m²,2 rooms,https://media.pararius.nl/image/PR0001668000/PR0001668114/image/jpeg/400x600/RotterdamMijnsherenlaan-d47a_8.jpg,https://www.pararius.com/apartment-for-rent/rotterdam/b594f700/mijnsherenlaan,51.89469,4.49269,"****Due to the large number of responses, viewing is no longer possible, new responses will be placed on a waiting list***  
+",Immediately
+Mijnsherenlaan,Apartment,16-10-2022,35,500,24 m²,2 rooms,https://media.pararius.nl/image/PR0001668000/PR0001668114/image/jpeg/400x600/RotterdamMijnsherenlaan-d47a_8.jpg,https://www.pararius.com/apartment-for-rent/rotterdam/b594f700/mijnsherenlaan,51.89469,4.49269,"****Due to the large number of responses, viewing is no longer possible, new responses will be placed on a waiting list***  
 Temporarily available immediately: Living room with bedroom in an approved 4-room apartment with a balcony and roof terrace!   
 Please realize: this is a shared home.   
 Welcome to the Mijnsherenlaan in Rotterdam South, at a central location between the Hart van Zuid and the Maashaven metro station. You reach the fourth living floor via a private, well-maintained staircase. The apartment consists of 3 bedrooms, 1 living room, kitchen, separate toilet and a bathroom. The living room and bedroom at the front of the house are available for rent. The dimensions are 15m2 and 8.5m2 respectively. The kitchen, bathroom and toilet are shared with 1 female housemate who already lives there.   
@@ -398,8 +415,8 @@ Rental conditions:
 - Viewings: planning in consultation.   
 - Please respond in writing to info@smartletting. nl or via the website on which the advertisement has been placed.
 
-",Immediately,35
-Nieuwenoord,Room,27-8-2022,500,20 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/84aa1386-30b0-58f7-883b-69b1a039038c/43eb42cbdd748bece8bd7947a5d350d6.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/84aa1386/nieuwenoord,51.88149,4.55806,"Temporary room available in shared apartment!
+",Immediately
+Nieuwenoord,Room,28-8-2022,84,500,20 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/84aa1386-30b0-58f7-883b-69b1a039038c/43eb42cbdd748bece8bd7947a5d350d6.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/84aa1386/nieuwenoord,51.88149,4.55806,"Temporary room available in shared apartment!
 Rental price: €500,00 excluding G/W/E, internet/tv and municipal charges
 State: Partly furnished
 Available per: Directly
@@ -408,11 +425,11 @@ Shared room in house available for six months. All facilities are shared with on
 For this property you can contact HouseHunting Rotterdam.
 Although this text has been carefully prepared, no rights can be derived from this text. Measurements are indicative and not NEN measured. Allocation subject to approval by landlord / owner. Deposit amount may vary depending on profile. Pets in consultation with landlord / owner. Smoking not allowed. Rental agreement for a limited period. General conditions of ROZ applicable.
 
-",Immediately,84
-Zuidplein,Apartment,27-8-2022,750,40 m²,3 rooms,https://casco-media-prod.global.ssl.fastly.net/2dd8fb8c-92d5-5751-a606-01cb34da0181/3f693c9ed1036b65ade687e5944ff314.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/2dd8fb8c/zuidplein,51.88971,4.48905,"Apartment with balcony for rent in Rotterdam with 2 bedrooms in the Zuidplein district.
+",Immediately
+Zuidplein,Apartment,28-8-2022,84,750,40 m²,3 rooms,https://casco-media-prod.global.ssl.fastly.net/2dd8fb8c-92d5-5751-a606-01cb34da0181/3f693c9ed1036b65ade687e5944ff314.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/2dd8fb8c/zuidplein,51.88971,4.48905,"Apartment with balcony for rent in Rotterdam with 2 bedrooms in the Zuidplein district.
 
-",Immediately,84
-Lepelaarsingel,Apartment,11-11-2022,845,52 m²,3 rooms,https://casco-media-prod.global.ssl.fastly.net/d0f5fa4d-72c3-5dd0-b1a0-c55eba5d41f0/b7a976a0f1adc749929fec1ecfd6ca80.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/d0f5fa4d/lepelaarsingel,51.88541,4.47504,"The apartment on the Lepelaarsingel is a well-kept 3-room apartment with 2 bedrooms on the 3rd floor, beautifully situated on the edge of Carnisse on a green strip with a canal, a wonderful unobstructed view!
+",Immediately
+Lepelaarsingel,Apartment,11-11-2022,9,845,52 m²,3 rooms,https://casco-media-prod.global.ssl.fastly.net/d0f5fa4d-72c3-5dd0-b1a0-c55eba5d41f0/b7a976a0f1adc749929fec1ecfd6ca80.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/d0f5fa4d/lepelaarsingel,51.88541,4.47504,"The apartment on the Lepelaarsingel is a well-kept 3-room apartment with 2 bedrooms on the 3rd floor, beautifully situated on the edge of Carnisse on a green strip with a canal, a wonderful unobstructed view!
 Layout: (dimensions see map)
 
 
@@ -445,8 +462,8 @@ Income from work desired, income requirement per month is 3x the monthly rent or
 Rent quickly?
 Make sure you have an active Digi-D.
 
-",Immediately,8
-Jacob,Apartment,11-11-2022,900,42 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/a40b33c5-f428-53f6-8e76-06f9565a4b6d/35acf8be51bc90d7aba99f484ed5e0ec.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/a40b33c5/jacob-van-akenstraat,51.94445,4.53981,"Fully furnished apartment located in the green and spacious neighborhood ""Het Lage Land"" available immediately! The apartment is located in the part which used to be the garage and is completely newly realized, has a cozy (front) garden and a private front door. 
+",Immediately
+Jacob,Apartment,11-11-2022,9,900,42 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/a40b33c5-f428-53f6-8e76-06f9565a4b6d/35acf8be51bc90d7aba99f484ed5e0ec.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/a40b33c5/jacob-van-akenstraat,51.94445,4.53981,"Fully furnished apartment located in the green and spacious neighborhood ""Het Lage Land"" available immediately! The apartment is located in the part which used to be the garage and is completely newly realized, has a cozy (front) garden and a private front door. 
 The location is very central, the supermarket is around the corner as well as the bus stop and highways, also located at 10 minutes cycling distance the Kralingse Bos/Kralingse plas for a lovely walk.
 Layout:
 Entry through the front garden. The living room has an open kitchen which is fully equipped including a stove, oven and dishwasher. The bedroom has a double bed and a spacious closet. The modern bathroom is located at the rear and features a spacious walk-in shower with rain shower, toilet and sink with cabinet. The bathroom also houses the washer and dryer. 
@@ -478,31 +495,7 @@ Deposit: € 2000
 
 
 
-",Immediately,8
-Beukelsweg,Room,5-11-2022,575,15 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/6d22c4b1-cbbe-5e18-bb03-63e76f16ab49/3f1b7f06f4d06843837427c3e24c8e7e.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/6d22c4b1/beukelsweg,51.91974,4.44619,"Pleasant room for rent in Rotterdam in the Nieuwe Westen district.
+",Immediately
+Beukelsweg,Room,6-11-2022,14,575,15 m²,1 room,https://casco-media-prod.global.ssl.fastly.net/6d22c4b1-cbbe-5e18-bb03-63e76f16ab49/3f1b7f06f4d06843837427c3e24c8e7e.jpg?width=600&auto=webp,https://www.pararius.com/room-for-rent/rotterdam/6d22c4b1/beukelsweg,51.91974,4.44619,"Pleasant room for rent in Rotterdam in the Nieuwe Westen district.
 
-",From 01-12-2022,14
-Zuidhoek,Apartment,27-8-2022,795,50 m²,2 rooms,https://casco-media-prod.global.ssl.fastly.net/88596cef-c78b-5929-a297-68c7f7b88a8a/89c997022b93855739d5feed147d51f1.jpg?width=600&auto=webp,https://www.pararius.com/apartment-for-rent/rotterdam/88596cef/zuidhoek,51.88777,4.46184,"In the Charlois district on the Zuidhoek we offer you this nice 2-room apartment with one bedroom, renovated in 2018. The house is equipped with plastic frames and double glazing.
-Layout: (see floor plan in images)
-Shared entrance
-The apartment is located on the first floor;
-
-Through the hallway you enter the living room which is located at the front of the apartment
-The kitchen is equipped with an extractor hood and built-in oven
-The bedroom is located at the rear of the apartment and has access to the balcony
-The bathroom has a toilet, sink and walk-in shower
-Balcony at the rear
-
-Surroundings:
-This district is the first district you will encounter as soon as you leave the Maastunnel. The neighborhood is characterized by the atmospheric and cozy streets. It almost feels like a village in itself, with all daily amenities around the corner. The center of Rotterdam is only a few bus stops (bus 44) away, or about 15 minutes by bike or car. You can also reach the Maashaven metro stop within a few minutes by tram (line 2). You can reach the A15 motorway within a few minutes by car.
-Financial:
-
-Deposit: 1 month rent
-Excl. G/W/L
-Tenant subscription €49.50 per month
-Income from work desired, income requirement per month is 3x the monthly rent or with guarantor
-Please respond via 'Schedule a viewing' online, we can't plan a viewing with you by phone
-Available for 12 months
-
-
-",Immediately,84
+",From 01-12-2022
