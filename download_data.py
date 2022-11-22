@@ -11,4 +11,4 @@ df_kamernet = scrape_kamernet_url("https://kamernet.nl/en/for-rent/rooms-rotterd
 df_kamernet.to_csv("kamernet_listings.csv", header=True, index=False)
 
 df_interhouse = scrape_interhouse_url("https://interhouse.nl/huurwoningen/?search_terms=Rotterdam&maximum_price=900&number_of_results=20&sort=date-desc&display=list")
-df_interhouse.to_csv("interhouse_listings.csv", header=True, index = F)
+df_interhouse.to_csv("interhouse_listings.csv", header=True, index = False)
