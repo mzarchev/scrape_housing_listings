@@ -33,11 +33,13 @@ get_width <- function(i){
 
 
 ### Kamernet
+no_image_url <- "https://resources.kamernet.nl/Content/images/placeholder/no-pic-advert.png"
+
 kamernet_df <- 
   read_csv("kamernet_listings.csv") %>% 
   filter(days_ago < 4,
          price <= 900) %>% 
-  mutate(type = str_remove_all(type, "\\['|'\\]"))
+  mutate(img = ifelse(img == "N/A", no_image_url, img))
 ```
 
 # Pararius
