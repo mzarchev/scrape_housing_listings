@@ -1,34 +1,38 @@
 ---
 title: "Apartments"
-output:
+output: 
   html_document:
-    df_print: paged
+    toc: true
+    toc_float: true
+    toc_collapsed: true
+    toc_depth: 1
+    number_sections: false
+    theme: lumen
 ---
 
 ```{r setup, message=FALSE, warning=FALSE, include=FALSE}
-library(tidyverse)
 library(leaflet)
 
 ### Pararius
 pararius_df <- 
-  read_csv("pararius_listings.csv") %>% 
-  filter(days_ago < 4) 
+  readr::read_csv("pararius_listings.csv") |>
+  dplyr::filter(days_ago < 4) 
 
 # Function for maps
 leaflet() # Otherwise map doesn't work
 
 make_map <- function(i, lon, lat, width){
   htmltools::tagList(
-    leaflet::leaflet(pararius_df[i,], width = width) %>%
-    leaflet::addTiles() %>% 
-    leaflet::addMarkers(lng = lon, lat = lat)) %>% 
+    leaflet::leaflet(pararius_df[i,], width = width) |>
+    leaflet::addTiles() |>
+    leaflet::addMarkers(lng = lon, lat = lat)) |>
   as.character()
 }
 # Get image dimensions for resizing map
 get_width <- function(i){
-  magick::image_read(pararius_df[i,]$img) %>% 
-  magick::image_info() %>% 
-  pluck("width")
+  magick::image_read(pararius_df[i,]$img) |> 
+  magick::image_info() |> 
+  purrr::pluck("width")
 }
 
 
@@ -36,22 +40,49 @@ get_width <- function(i){
 no_image_url <- "https://resources.kamernet.nl/Content/images/placeholder/no-pic-advert.png"
 
 kamernet_df <- 
-  read_csv("kamernet_listings.csv") %>% 
-  filter(days_ago < 4,
-         price <= 900) %>% 
-  mutate(img = ifelse(img == "N/A", no_image_url, img))
+  readr::read_csv("kamernet_listings.csv") |> 
+  dplyr::filter(days_ago < 4,
+                price <= 900) |>
+  dplyr::mutate(img = ifelse(img == "N/A", no_image_url, img))
+
+### Interhouse
+interhouse_df <- readr::read_csv("interhouse_listings.csv")
+
 ```
+
+$~$
+
+# Facebook
+
+$~$
+
+## [Find a roomate in Rotterdam](https://www.facebook.com/groups/kamer.in.rotterdam?sorting_setting=CHRONOLOGICAL)
+
+$~$
+
+## [Housing Rotterdam](https://www.facebook.com/groups/apartmentshousingrotterdam?sorting_setting=CHRONOLOGICAL_LISTINGS)
+
+$~$
+
+## [Rotterdam Housing](https://www.facebook.com/groups/rotterdam.housing?sorting_setting=CHRONOLOGICAL_LISTINGS)
+
+$~$
+
+## [Rotterdam Rooms](https://www.facebook.com/groups/1986292084964994?sorting_setting=CHRONOLOGICAL)
+
+$~$
 
 # Pararius
 
-```{r echo=FALSE, results='asis'}
+$~$
 
-for(i in 1:(nrow(pararius_df) - 1)){
-  # Title
-  cat(paste0("# ", pararius_df[i,]$name,
-             " posted ", pararius_df[i,]$days_ago, " days ago \n\n"))
-  # Link
-  cat(paste0("[LINK](", pararius_df[i,]$url, ")\n\n")) 
+
+```{r echo=FALSE, results='asis'}
+for(i in 1:nrow(pararius_df)){
+  # Title and link
+  cat(paste0("# [",  pararius_df[i,]$name,
+             " posted ", pararius_df[i,]$days_ago, " days ago]",
+             paste0("(", pararius_df[i,]$url, ")\n\n")))
   # Type and availability
   cat(paste0(pararius_df[i,]$type, " availabile: ",
              pararius_df[i,]$availability, "\n\n"))
@@ -83,13 +114,14 @@ $~$
 
 # Kamernet
 
+$~$
+
 ```{r echo=FALSE, results='asis'}
-for(i in 1:(nrow(kamernet_df) - 1)){
-  # Title
-  cat(paste0("# ", kamernet_df[i,]$name,
-             " posted ", kamernet_df[i,]$days_ago, " days ago \n\n"))
-  # Link
-  cat(paste0("[LINK](", kamernet_df[i,]$url, ")\n\n")) 
+for(i in 1:nrow(kamernet_df)){
+  # Title and link
+  cat(paste0("# [",  kamernet_df[i,]$name,
+             " posted ", kamernet_df[i,]$days_ago, " days ago]",
+             paste0("(", kamernet_df[i,]$url, ")\n\n")))
   # Type and availability
   cat(paste0(kamernet_df[i,]$type, " availabile: ",
              kamernet_df[i,]$availability, "\n\n"))
@@ -108,15 +140,31 @@ for(i in 1:(nrow(kamernet_df) - 1)){
 }
 ```
 
+$~$
 
-```{r eval=FALSE, include=FALSE, results='asis'}
-kamernet_df %>% 
-  mutate(across(c(area, rooms), ~str_extract(., "^\\d+") %>% 
-                                 as.numeric())) %>% 
-  select(-name) %>% 
-  pivot_longer(c(area, rooms)) %>% 
-  ggplot(aes(x = value, y = price, color = name)) +
-  geom_point() +
-  facet_wrap(~name, scale = "free_x") +
-  theme_minimal()
+# Kamernet
+
+$~$
+
+```{r echo=FALSE, results='asis'}
+for(i in 1:nrow(interhouse_df)){
+  # Title and link
+  cat(paste0("# [",  interhouse_df[i,]$name,"]",
+      "(", interhouse_df[i,]$url, ")\n\n"))
+  # Type and availability
+  cat(paste0(interhouse_df[i,]$type, " availabile: ",
+             interhouse_df[i,]$availability, "\n\n"))
+  # Price, number of rooms and square meters
+  cat(paste0("**Details:** ", interhouse_df[i,]$price, "$",
+             " (", interhouse_df[i,]$utilities, "),\n",
+             interhouse_df[i,]$rooms, ", ", interhouse_df[i,]$area, "\n")) 
+  
+  cat("\n\n")
+  # Photo
+  cat(paste0("![](", interhouse_df[i,]$img, ")", "\n")) 
+  cat("\n\n")
+  # Description
+  cat(interhouse_df[i,]$description) 
+  cat("\n\n")
+}
 ```
