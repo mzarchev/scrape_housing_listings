@@ -69,7 +69,7 @@ def scrape_interhouse_url(url_interhouse):
         img = re.findall("(?<=[(]).+(?=[)])", img)[0]
         
         # Go in url to extract description
-        listing_soup = BeautifulSoup(requests.get(url).content)
+        listing_soup = BeautifulSoup(requests.get(url).content, "html.parser")
         description = listing_soup.find("div", class_="building-description").text
 
         listings_dict["name"].append(name)
