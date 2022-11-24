@@ -11,6 +11,7 @@ output:
 ---
 
 ```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+.libPaths("C:/Users/Home/Documents/R/win-library/4.1")
 library(leaflet)
 
 ### Pararius
