@@ -141,7 +141,7 @@ for(i in seq_len(nrow((kamernet_df)))){
   # Description
   cat(kamernet_df[i,]$description)
   cat("\n\n")
-} 
+}
 ```
 
 $~$
