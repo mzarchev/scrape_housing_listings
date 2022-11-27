@@ -82,7 +82,7 @@ $~$
 
 
 ```{r echo=FALSE, results='asis'}
-for(i in 1:nrow(pararius_df)){
+for(i in seq_len(nrow((pararius_df)))){
   # Title and link
   cat(paste0("## [",  pararius_df[i,]$name,
              " posted ", pararius_df[i,]$days_ago, " days ago]",
@@ -121,7 +121,7 @@ $~$
 $~$
 
 ```{r echo=FALSE, results='asis'}
-for(i in 1:nrow(kamernet_df)){
+for(i in seq_len(nrow((kamernet_df)))){
   # Title and link
   cat(paste0("## [",  kamernet_df[i,]$name,
              " posted ", kamernet_df[i,]$days_ago, " days ago]",
@@ -141,7 +141,7 @@ for(i in 1:nrow(kamernet_df)){
   # Description
   cat(kamernet_df[i,]$description)
   cat("\n\n")
-}
+} 
 ```
 
 $~$
@@ -151,7 +151,7 @@ $~$
 $~$
 
 ```{r echo=FALSE, results='asis'}
-for(i in 1:nrow(interhouse_df)){
+for(i in seq_len(nrow((interhouse_df)))){
   # Title and link
   cat(paste0("## [",  interhouse_df[i,]$name,"]",
       "(", interhouse_df[i,]$url, ")\n\n"))
