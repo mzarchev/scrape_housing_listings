@@ -1,7 +1,10 @@
 ---
-title: "Apartments"
+title: ""
 output: 
   html_document:
+   # css: css/style.css
+    include:
+      before_body: css/header.html
     toc: true
     toc_float: true
     toc_collapsed: true
@@ -15,9 +18,9 @@ output:
 library(leaflet)
 
 ### Pararius
-pararius_df <- 
+pararius_df <-
   readr::read_csv("pararius_listings.csv") |>
-  dplyr::filter(days_ago < 4) 
+  dplyr::filter(days_ago < 4)
 
 # Function for maps
 leaflet() # Otherwise map doesn't work
@@ -31,8 +34,8 @@ make_map <- function(i, lon, lat, width){
 }
 # Get image dimensions for resizing map
 get_width <- function(i){
-  magick::image_read(pararius_df[i,]$img) |> 
-  magick::image_info() |> 
+  magick::image_read(pararius_df[i,]$img) |>
+  magick::image_info() |>
   purrr::pluck("width")
 }
 
@@ -40,8 +43,8 @@ get_width <- function(i){
 ### Kamernet
 no_image_url <- "https://resources.kamernet.nl/Content/images/placeholder/no-pic-advert.png"
 
-kamernet_df <- 
-  readr::read_csv("kamernet_listings.csv") |> 
+kamernet_df <-
+  readr::read_csv("kamernet_listings.csv") |>
   dplyr::filter(days_ago < 4,
                 price <= 900) |>
   dplyr::mutate(img = ifelse(img == "N/A", no_image_url, img))
@@ -81,30 +84,30 @@ $~$
 ```{r echo=FALSE, results='asis'}
 for(i in 1:nrow(pararius_df)){
   # Title and link
-  cat(paste0("# [",  pararius_df[i,]$name,
+  cat(paste0("## [",  pararius_df[i,]$name,
              " posted ", pararius_df[i,]$days_ago, " days ago]",
              paste0("(", pararius_df[i,]$url, ")\n\n")))
   # Type and availability
   cat(paste0(pararius_df[i,]$type, " availabile: ",
              pararius_df[i,]$availability, "\n\n"))
   # Price, number of rooms and square meters
-  cat(paste0("**Details:** ", pararius_df[i,]$price, "$", ", ", 
-              pararius_df[i,]$rooms, ", ", pararius_df[i,]$area, "\n")) 
-  
+  cat(paste0("**Details:** ", pararius_df[i,]$price, "$", ", ",
+              pararius_df[i,]$rooms, ", ", pararius_df[i,]$area, "\n"))
+
   cat("\n\n")
   # Photo
-  cat(paste0("![](", pararius_df[i,]$img, ")", "\n")) 
+  cat(paste0("![](", pararius_df[i,]$img, ")", "\n"))
   cat("\n\n")
   # Description
-  cat(pararius_df[i,]$description) 
+  cat(pararius_df[i,]$description)
   cat("\n\n")
-  
+
   # Width of map to match image
   img_width <- get_width(i)
-  
+
   # Map
   cat(make_map(i, pararius_df[i,]$lon, pararius_df[i,]$lat, width = img_width))
-  
+
   cat("\n\n")
   cat("---")
   cat("\n\n")
@@ -120,7 +123,7 @@ $~$
 ```{r echo=FALSE, results='asis'}
 for(i in 1:nrow(kamernet_df)){
   # Title and link
-  cat(paste0("# [",  kamernet_df[i,]$name,
+  cat(paste0("## [",  kamernet_df[i,]$name,
              " posted ", kamernet_df[i,]$days_ago, " days ago]",
              paste0("(", kamernet_df[i,]$url, ")\n\n")))
   # Type and availability
@@ -129,28 +132,28 @@ for(i in 1:nrow(kamernet_df)){
   # Price, number of rooms and square meters
   cat(paste0("**Details:** ", kamernet_df[i,]$price, "$",
              " (", kamernet_df[i,]$utilities, "),\n",
-             kamernet_df[i,]$rooms, ", ", kamernet_df[i,]$area, "\n")) 
-  
+             kamernet_df[i,]$rooms, ", ", kamernet_df[i,]$area, "\n"))
+
   cat("\n\n")
   # Photo
-  cat(paste0("![](", kamernet_df[i,]$img, ")", "\n")) 
+  cat(paste0("![](", kamernet_df[i,]$img, ")", "\n"))
   cat("\n\n")
   # Description
-  cat(kamernet_df[i,]$description) 
+  cat(kamernet_df[i,]$description)
   cat("\n\n")
 }
 ```
 
 $~$
 
-# Kamernet
+# Interhouse
 
 $~$
 
 ```{r echo=FALSE, results='asis'}
 for(i in 1:nrow(interhouse_df)){
   # Title and link
-  cat(paste0("# [",  interhouse_df[i,]$name,"]",
+  cat(paste0("## [",  interhouse_df[i,]$name,"]",
       "(", interhouse_df[i,]$url, ")\n\n"))
   # Type and availability
   cat(paste0(interhouse_df[i,]$type, " availabile: ",
@@ -158,14 +161,14 @@ for(i in 1:nrow(interhouse_df)){
   # Price, number of rooms and square meters
   cat(paste0("**Details:** ", interhouse_df[i,]$price, "$",
              " (", interhouse_df[i,]$utilities, "),\n",
-             interhouse_df[i,]$rooms, ", ", interhouse_df[i,]$area, "\n")) 
-  
+             interhouse_df[i,]$rooms, ", ", interhouse_df[i,]$area, "\n"))
+
   cat("\n\n")
   # Photo
-  cat(paste0("![](", interhouse_df[i,]$img, ")", "\n")) 
+  cat(paste0("![](", interhouse_df[i,]$img, ")", "\n"))
   cat("\n\n")
   # Description
-  cat(interhouse_df[i,]$description) 
+  cat(interhouse_df[i,]$description)
   cat("\n\n")
 }
 ```

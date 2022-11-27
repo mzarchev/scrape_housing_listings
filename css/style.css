@@ -1,0 +1,76 @@
+/* This change the style of the main container that wraps the whole R Markdown document. It allows the parallax image to be full width */
+.main-container {
+    max-width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Then we place our content with this style because we don't want it to be full width */
+.mycontent{
+      max-width: 1900px !important;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: 'Segoe UI';
+      font-size: 115%;
+      line-height: 1.7;
+      padding-right: 10%;
+      padding-left: 15%;
+      text-align: justify
+}
+
+.mytabset{
+  display: table;
+  margin: auto;
+  color: blue;
+}
+
+
+/* Just for fun, a bit of customization for title and text.. */
+.mytitle{
+  !text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size: 80%;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.mysubtitle{
+  color:grey;
+  font-family: 'Montserrat';
+}
+
+p.caption {
+  font-size: 0.9em;
+  font-style: italic;
+  color: grey;
+  margin-right: 10%;
+  margin-left: 10%;  
+  text-align: center;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 50px;
+}
+
+h1 {
+    padding-top: 45px !important;
+    margin-top: 20px !important;
+}
+
+pre {
+    border: 0px solid #cccccc;
+    border-radius: 0px;
+ }
+
+a {
+  color: #69b3a2;
+}
+
+titled{
+  color: black;
+  position: absolute;
+  padding-top:150px;
+  left: 35%;
+  font-weight: bold;
+  font-size: 32;
+}

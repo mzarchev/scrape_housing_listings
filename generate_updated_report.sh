@@ -7,14 +7,18 @@ NC='\033[0m' # No color
 
 cd "C:\Users\Home\Desktop\python\scrape_housing_listings"
 
-printf "Ye old apartment hunt is starting\n\n Scraping the listings..."
+printf "Ye olde ${BCyan}apartment hunt${NC} is starting\n\n    ${NC}Scraping${NC} the listings..."
 
 py download_data.py
 
-printf "\n\nScraped! Now off to generate the report!"
+printf "\n\n${Green}Scraped!${NC} Now off to generate the report!\n\n\n"
 
 Rscript.exe knit_report.R
 
-printf "\n\nDone!"
+printf "\n\n${Green}Done!${NC}"
+
+sleep 2
 
 explorer format_report.html
+
+sleep 5

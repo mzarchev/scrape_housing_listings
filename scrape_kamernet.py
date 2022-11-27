@@ -3,6 +3,8 @@ import re
 from pandas import DataFrame
 from bs4 import BeautifulSoup
 
+kamernet_url = "https://kamernet.nl/en/for-rent/rooms-rotterdam"
+
 def scrape_kamernet_url(kamernet_url):
     
     page = requests.get(kamernet_url)
@@ -44,7 +46,10 @@ def scrape_kamernet_url(kamernet_url):
         # When posted (sometimes undeclared)
         
         since = listing.find("div", class_="right tile-dateplaced").text
-        since = re.findall(r"\d+[a-z]+", since)[0]
+        try: 
+            since = re.findall(r"\d+ [a-z]+", since)[0]
+        except:
+            pass
         # How many days ago
         if re.search(r"\d+h", since):
             days_ago = 0
