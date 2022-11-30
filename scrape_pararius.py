@@ -1,14 +1,20 @@
-import requests
 import re
 from pandas import DataFrame
 from bs4 import BeautifulSoup
+from time import sleep
 from datetime import datetime, timedelta
+from selenium import webdriver
 
-def scrape_pararius_url(pararius_url):
+def scrape_pararius_url(pararius_url, check_days_back=1):
 
+    browser = webdriver.Chrome()
+    browser.get(pararius_url)
+    sleep(3)
     # Get static HTML file
-    page = requests.get(pararius_url)
-    soup = BeautifulSoup(page.content, "html.parser")
+    page = browser.page_source
+    soup = BeautifulSoup(page, "html.parser")
+
+
     # Extract all listings
     result_listings = soup.find_all("li", class_="search-list__item search-list__item--listing")
 
@@ -30,7 +36,7 @@ def scrape_pararius_url(pararius_url):
 
     # Loop through listings
     for listing in result_listings:
-        
+
         # Title
         title = listing.find("a", class_="listing-search-item__link listing-search-item__link--title")
         # Type of listing (studio, apartment)
@@ -49,9 +55,10 @@ def scrape_pararius_url(pararius_url):
         # Get the url (partial, needs to be combined with original url)
         url_temp = listing.find("a", class_="listing-search-item__link listing-search-item__link--title")["href"]
         url_full = "https://www.pararius.com" + url_temp
-        
+        browser.get(url_full)
+        """ sleep(3) """
         ## Go to the listing details url and extract info from there
-        listing_soup = BeautifulSoup(requests.get(url_full).content, "html.parser")
+        listing_soup = BeautifulSoup(browser.page_source, "html.parser")
         # Availability (available, under auction, etc)
         availability = listing_soup.find("dd", class_="listing-features__description listing-features__description--acceptance").text
         availability = availability.replace("\n", "")
@@ -87,6 +94,8 @@ def scrape_pararius_url(pararius_url):
         # Get how many days ago listing was posted
         days_ago = days_since(since)
         
+        if days_ago > check_days_back: break
+
         # Store everything in a dictionary    
         listings_dict["name"].append(name)
         listings_dict["type"].append(type)
@@ -102,5 +111,6 @@ def scrape_pararius_url(pararius_url):
         listings_dict["url"].append(url_full)
         listings_dict["img"].append(img)
 
+    browser.close()
     df_listings = DataFrame(listings_dict)
     return(df_listings)
