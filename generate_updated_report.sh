@@ -5,7 +5,7 @@ Green='\033[0;32m'
 BCyan='\033[1;36m'
 NC='\033[0m' # No color
 
-cd "C:\Users\Home\Desktop\python\scrape_housing_listings"
+cd "C:\Users\Home\Desktop\python projects\scrape_housing_listings"
 
 printf "Ye olde ${BCyan}apartment hunt${NC} is starting\n\n    ${NC}Scraping${NC} the listings..."
 

@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 kamernet_url = "https://kamernet.nl/en/for-rent/rooms-rotterdam"
 
 def scrape_kamernet_url(kamernet_url):
-    
+
     page = requests.get(kamernet_url)
     soup = BeautifulSoup(page.content, "html.parser")
 
@@ -26,9 +26,9 @@ def scrape_kamernet_url(kamernet_url):
                     }
 
     for listing in listings:
-        
         # Title
         name = listing.find("a", class_="tile-title truncate").text
+        print(name)
         # Type
         type = listing.find("div", class_="tile-room-type").text
         type = re.findall(r"[A-Z].+(?=[\r])", type)[0]
@@ -47,7 +47,7 @@ def scrape_kamernet_url(kamernet_url):
         
         since = listing.find("div", class_="right tile-dateplaced").text
         try: 
-            since = re.findall(r"\d+ [a-z]+", since)[0]
+            since = re.findall(r"\d+ [a-z]+|new", since)[0]
         except:
             pass
         # How many days ago
@@ -58,6 +58,8 @@ def scrape_kamernet_url(kamernet_url):
         elif re.search(r"\d+w", since):    
             weeks_ago = re.findall(r"\d+(?=w)", since)[0]
             days_ago = int(weeks_ago) * 7
+        elif re.search(r"New", since):
+            days_ago = 0
 
         # Go into posting and extract more details
         soup_listing = BeautifulSoup(requests.get(url).content, "html.parser")    
@@ -91,4 +93,5 @@ def scrape_kamernet_url(kamernet_url):
         listings_dict["img"].append(img)
 
     return(DataFrame(listings_dict))
+
 

@@ -13,7 +13,7 @@ def scrape_pararius_url(pararius_url, check_days_back=1):
     # Get static HTML file
     page = browser.page_source
     soup = BeautifulSoup(page, "html.parser")
-
+    browser.minimize_window()
 
     # Extract all listings
     result_listings = soup.find_all("li", class_="search-list__item search-list__item--listing")
